@@ -41,8 +41,12 @@ Run the command below to check if you can ping the hosts
 
 ansible -m ping -u webserver
 
+![image](https://user-images.githubusercontent.com/91240401/201460801-cdf5c04d-7597-49c1-80cf-fec125fef0b7.png)
+
 Step2
 and then run ansible-playbook nginx_setup.yml -u root 
 Go to web browser and check the ip address for loadbalancer
 You should see the webpage as seen below
+![image](https://user-images.githubusercontent.com/91240401/201460820-6bf15055-1b10-4e10-a60e-75f350b3992f.png)
+
 
